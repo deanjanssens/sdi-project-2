@@ -41,18 +41,21 @@ getCharacter();
 
 //Confirm
 
-confirm("Your " + character + "is" + " and your weapon is " + weapon + ".")
+var zombiesPresent = confirm(Are there zombies present?)
 
 
 //Boolean Function
 
-var getBoolean = function () {
-    var;
-    while (zombiesPresent === true) {}
-    return;
+var getZombies = function () {
+    var zombies = 0;
+    while (zombies < 3) {
+    console.log("There are zombies present. There are more to remove."}
+    console.log("There are no zombies present.");
+    return zombies;
 
 };
 
+getZombies();
 
 
 //Number Function
