@@ -33,36 +33,37 @@ var zombiesPresent = confirm("Are zombies present?");
 
 //Boolean Function
 
-var getzombiesPresent = function (){
-console.log ("It is " + zombiesPresent + " that zombies are present.");
-
+var getzombiesPresent = function (zombiesPresent){
+	var zombies = 3;
+	while (zombiesPresent === true && zombies >0){
+	zombies--;
+	console.log ("It is " + zombiesPresent + " that zombies are present.");
+	console.log ("Fire weapon.");
+	console.log ("There are " + zombies + " zombies " + " present.");
+	
+	};
+	console.log("There are no zombies present. You are safe for now.");
+	return zombies;	
 };
 
-getzombiesPresent();
 
-
+getzombiesPresent(zombiesPresent);
 
 //Number Function
 
-var getNumber = function (numberOfZombies) {
-    var ;
-    for () {}
-    return;
+var number = function ( ){
 };
-
 
 
 
 //String Function
 
-var getString = function () {
-    var;
-    if () {} else {}
-
+var string = function ( ){
 };
 
-//Returned Values
 
-getBoolean();
-getNumber();
-getString();
+
+
+
+
+
